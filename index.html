@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="skin.css">
+
+</head>
+<body>
+
+    <div class="calculator">
+        <input type="text" id="output" readonly value="0">
+        <br>
+        <button onclick="calculatAc() "  class="ac">AC</button>
+        <button onclick=" calculatPolar()" >+/-</button>
+        <button onclick=" calculatPercent(calc)" >%</button>
+        <button onclick=" calculat('/')" class="operator">/</button>
+        <br>
+        <button onclick=" calculat('7')">7</button>
+        <button onclick=" calculat('8')">8</button>
+        <button onclick=" calculat('9')">9</button>
+        <button onclick=" calculat('*')" class="operator">*</button>
+        <br>
+        <button onclick=" calculat('4')">4</button>
+        <button onclick=" calculat('5')">5</button>
+        <button onclick=" calculat('6')">6</button>
+        <button onclick=" calculat('-')" class="operator">-</button>
+        <br>
+        <button onclick=" calculat('1')">1</button>
+        <button onclick=" calculat('2')">2</button>
+        <button onclick=" calculat('3')">3</button>
+        <button onclick=" calculat('+')" class="operator">+</button>
+        <br>
+        <button onclick=" calculat('0')" class="zero">0</button>
+        <button onclick=" calculat('.')">.</button>
+        <button onclick=" calculatEqual(calc)" >=</button>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
+
+
+
